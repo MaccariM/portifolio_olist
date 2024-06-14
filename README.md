@@ -7,18 +7,17 @@ Sinta-se a vonta de para copiar os códigos e fico a disposição caso precise d
 
 0. Antes de começar, 
     1. Granta que tenha um Banco PostgreSQL instalado e configurado
-        1.1 Se estiver usando um banco hospedado, será  necessário fazer ajustes do script 'engine_olist' para configurar a cadeia de conexão com o Banco
+        1.1. Se estiver usando um banco hospedado, será  necessário fazer ajustes do script 'engine_olist' para configurar a cadeia de conexão com o Banco
     2. Garanta que tenha uma chave de API para o serviço https://api.invertexto.com/
     3. Tenha todos os arquivos salvos em um local especificos, confirme  se não houveram alterações nos cabeçalhos das  colunas
     4. Instale o python e as bibliotecas adicionais
-        4.1 Pandas
-        4.2 SQL Alchemy
-            4.2.1 Text 
+        4.1. Pandas
+        4.2. SQL Alchemy
+            4.2.1. Text 
 
 1. Crie as variaveis de sistema
-    1. Criie a variavel de sistema para armazenar a chave secreta de sua API
-        1.1 Recomendo que 
-    2. Crie  
+    1. Crie a variavel de sistema para armazenar a chave secreta de sua API
+    2. Crie a variavel de sistema com a senha para acesso ao banco  
 
 2. Execute os scripts SQL no seu SGBD para criar a estrutura do DW
     1. olist_stage
